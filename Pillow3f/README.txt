@@ -18,13 +18,4 @@ Pipe.save('png', 'C:/', 'newRendered_image%s' % x)
 print(Pipe.angle(*shape1))
 print(Pipe.angle(*shape2))
 
-Things you should know before using this: A z-buffer hasn't been implemented yet, 
-but I have a plan on how to do so while keeping the whole layout the same. 
-It will be jerry-rigged, but, the results will be the same and alpha will still work. 
-And because it will be jerry rigged it will be much faster. 
-I really don't want to say how I will do it, but I will. 
-The alpha on the pixel will be replaced with the z-value, 
-then the z value of that pixel will be compared against an overwriting pixel. 
-The overwriting pixel's alpha is used to determine the mix of the colors, 
-and then when it's all said and done, 
-the whole image is rewritten to have alphas of 255 before it is saved or displayed.
+I wrote a z-buffer, but haven't committed it yet.
