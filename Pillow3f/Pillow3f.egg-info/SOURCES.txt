@@ -1,0 +1,8 @@
+README.txt
+setup.py
+Pillow3f/Renderer.py
+Pillow3f.egg-info/PKG-INFO
+Pillow3f.egg-info/SOURCES.txt
+Pillow3f.egg-info/dependency_links.txt
+Pillow3f.egg-info/requires.txt
+Pillow3f.egg-info/top_level.txt
